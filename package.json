@@ -22,5 +22,8 @@
     "debug": "^4.1.1",
     "express": "^4.16.4",
     "http": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
