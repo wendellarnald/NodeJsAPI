@@ -5,3 +5,4 @@
 * npm i debug --save
 * npm i nodemon --save-dev
 * npm i body-parser --save
+* npm i mongoose --save
