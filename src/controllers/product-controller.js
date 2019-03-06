@@ -10,6 +10,18 @@ exports.get = (req, res, next) => {
         })
 }
 
+exports.getBySlug = (req, res, next) => {
+    Product.findOne({
+        slug: req.params.slug,
+        active: true
+    }, 'title description price slug tags')
+        .then(data => {
+            res.status(200).send(data)
+        }).catch(error => {
+            res.status(400).send(error)
+        })
+}
+
 exports.post = (req, res, next) => {
     const product = new Product(req.body)
     product
