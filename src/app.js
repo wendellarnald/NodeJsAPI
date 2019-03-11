@@ -9,6 +9,7 @@ mongoose.connect('')
 
 const Product = require('./models/product')
 const Customer = require('./models/customer')
+const Order = require('./models/order')
 
 const indexRoute = require('./routes/index-route')
 const productRoute = require('./routes/product-route')
