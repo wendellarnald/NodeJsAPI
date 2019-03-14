@@ -6,3 +6,4 @@
 * npm i nodemon --save-dev
 * npm i body-parser --save
 * npm i mongoose --save
+* npm i guid --save
