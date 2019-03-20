@@ -9,3 +9,4 @@
 * npm i guid --save
 * npm i md5 --save
 * npm i sendgrid@2.0.0 --save
+* npm i jsonwebtoken@7.4.0 --save
