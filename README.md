@@ -1,5 +1,7 @@
 # NodeJs API
 
+Studying how NodeJs works with a simple application.
+
 ## Modules used
 
 * npm i http --save
